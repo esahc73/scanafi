@@ -1,0 +1,11 @@
+apiVersion: addon.venafi.cloud/v1alpha1
+kind: DiscoveryService
+metadata:
+  name: {{ include "scanafi-svc.fullname" . }}
+spec:
+  count: {{ .Values.replicaCount }}
+  group: "addon.venafi.cloud"
+  port: 8053
+  image: {{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}
+  service_name: {{ include "scanafi-svc.fullname" . }}
+  service_type: "certificate"

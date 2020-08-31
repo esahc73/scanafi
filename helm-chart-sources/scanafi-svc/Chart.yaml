@@ -1,0 +1,6 @@
+apiVersion: v2
+name: scanafi-svc
+description: A Helm chart for Scanafi as Certificate Discovery Service for Edge
+type: application
+version: 0.0.1
+appVersion: 0.0.1

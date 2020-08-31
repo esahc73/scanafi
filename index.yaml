@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  scanafi-svc:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2020-08-31T17:12:11.411179-06:00"
+    description: A Helm chart for Scanafi as Certificate Discovery Service for Edge
+    digest: bf0dba0a0682c709f2674db80fdb35c074b77f071278a58b0c08080ee1842375
+    name: scanafi-svc
+    type: application
+    urls:
+    - scanafi-svc-0.0.1.tgz
+    version: 0.0.1
+generated: "2020-08-31T17:12:11.410031-06:00"
